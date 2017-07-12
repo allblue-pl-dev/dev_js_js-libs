@@ -1,0 +1,8 @@
+{
+  "name": "dev_js_js-libs",
+  "version": "0.0.1",
+  "dependencies": {
+    "ab-package": "0.0.*",
+    "ab-watcher": "0.0.*"
+  }
+}

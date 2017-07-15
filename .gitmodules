@@ -1,3 +1,12 @@
 [submodule "node_modules/js-libs"]
 	path = node_modules/js-libs
 	url = https://github.com/allblue-pl/js_js-libs
+[submodule "node_modules/ab-package"]
+	path = node_modules/ab-package
+	url = https://github.com/allblue-pl/node_ab-package
+[submodule "node_modules/ab-fs-matcher"]
+	path = node_modules/ab-fs-matcher
+	url = https://github.com/allblue-pl/node_ab-fs-matcher
+[submodule "node_modules/ab-fs-watcher"]
+	path = node_modules/ab-fs-watcher
+	url = https://github.com/allblue-pl/ab-fs-watcher

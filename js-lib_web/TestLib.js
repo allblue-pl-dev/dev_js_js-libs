@@ -6,7 +6,8 @@ const MyClass = require('MyClass');
 class TestLib
 {
 
-    get MyClass() {
+    get MyClass()
+    {
         return MyClass;
     }
 

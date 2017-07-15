@@ -1,0 +1,23 @@
+<html>
+<head>
+    <script src="node_modules/js-libs/js/js-libs.js"></script>
+
+    <!-- <script src="webjs-lib/index.js"></script>
+    <script src="webjs-lib/MyClass.js"></script>
+    <script src="webjs-lib/TestLib.js"></script> -->
+</head>
+<body>
+    <script>
+        console.log(jsLibs._packages_Fns);
+
+        jsLibs.exportPackage('first-test', (module) => {
+            module.exports = 'Hello World Package!';
+        });
+
+        console.log(require('first-test'));
+        // const testLib = require('test-lib');
+        //
+        // new testLib.MyClass();
+    </script>
+</body>
+</html>

@@ -1,10 +1,11 @@
 <html>
 <head>
+    <script type="text/javascript" src="node_modules/js-libs/js/js-libs.js"></script>
     {{header}}
 </head>
 <body>
     <script>
-        const testLib = require('./web-lib');
+        const testLib = require('test-lib');
 
         new testLib.MyClass();
     </script>

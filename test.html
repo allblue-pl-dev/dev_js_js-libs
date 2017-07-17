@@ -1,23 +1,13 @@
 <html>
 <head>
-    <script src="node_modules/js-libs/js/js-libs.js"></script>
-
-    <!-- <script src="webjs-lib/index.js"></script>
-    <script src="webjs-lib/MyClass.js"></script>
-    <script src="webjs-lib/TestLib.js"></script> -->
+    <script type="text/javascript" src="node_modules/js-libs/js/js-libs.js"></script>
+    <script type="text/javascript" src="js-lib_test/MyClass.js"></script><script type="text/javascript" src="js-lib_test/TestLib.js"></script><script type="text/javascript" src="js-lib_test/index.js"></script>
 </head>
 <body>
     <script>
-        console.log(jsLibs._packages_Fns);
+        const testLib = require('test-lib');
 
-        jsLibs.exportPackage('first-test', (module) => {
-            module.exports = 'Hello World Package!';
-        });
-
-        console.log(require('first-test'));
-        // const testLib = require('test-lib');
-        //
-        // new testLib.MyClass();
+        new testLib.MyClass();
     </script>
 </body>
 </html>
